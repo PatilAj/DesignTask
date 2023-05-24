@@ -1,0 +1,59 @@
+.NavBar {
+  margin-top: -7rem;
+}
+h2 {
+  font-weight: 400 !important;
+  font-size: 1.5rem !important;
+  padding: 1rem;
+}
+.MuiBox-root {
+  padding-top: 7rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.footer {
+  padding-top: 4rem !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+.update {
+    background-color: #3DACFF !important;
+    border-radius: 4px !important;
+    color: white !important;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -7rem;
+  border-radius: 10px;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-between !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 8px;
+}
+.p{
+    color: black !important;
+}
+.Cancel {
+  background-color: rgb(136, 135, 135) !important;
+  border: none !important;
+  border-radius: 4px !important;
+  color: black !important;
+  width: 9rem;
+}
+.Delete {
+  background-color: #cc1016 !important;
+  border: none !important;
+  border-radius: 4px !important;
+  color: white !important;
+  width: 9rem;
+}

@@ -1,0 +1,30 @@
+.card-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    width: 85% !important;
+    margin: 0 auto;
+    text-align:left;
+    overflow-x: auto;
+    padding-left: 2rem !important;
+  }
+  
+  .card {
+    width: 16.2rem;
+  }
+  
+  @media (max-width: 1000px) {
+    .card-container {
+      width: 100% !important;
+      /* padding-left: 5rem !important; */
+    }
+    .card{
+      width: 20rem;
+    }
+  }  
+
+  
+  
+  

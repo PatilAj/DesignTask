@@ -1,0 +1,68 @@
+.MuiTableContainer-root {
+  justify-content: center;
+  align-items: center;
+  width: 80% !important;
+  margin: 0 auto;
+  overflow-x: auto;
+  background-color: rgb(253, 252, 250) !important;
+}
+
+.MuiTable-root {
+  width: 100% !important;
+}
+
+th {
+  color: gray !important;
+  border: none !important;
+  border-collapse: collapse !important;
+}
+
+td {
+  border: none !important;
+  border-collapse: collapse !important;
+}
+thead > tr > :nth-child(5) {
+  display: flex;
+  justify-content: center;
+  margin-right: 1rem !important;
+}
+tbody > tr > :nth-child(5) {
+  color: gray !important;
+  text-align: left !important;
+}
+
+.button {
+  color: gray;
+  justify-content: left;
+}
+.TableCell {
+  border: none;
+  padding: 8px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-image {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+@media (max-width: 880px) {
+  .MuiTableContainer-root {
+    width: 100% !important;
+    padding: 0 10px;
+    overflow-x: auto;
+  }
+  .MuiPaper-root {
+    width: 88% !important;
+  }
+}
